@@ -22,7 +22,7 @@ public class Test {
     	  CTRmode ctrm= new CTRmode();
     	  s="This message was encrypted and decrypted by AES Algorithm with CTR mode!";
     	  System.out.println("\nCTR mode :");
-     	  System.out.println("input: "+s);
+     	  System.out.println("Input: "+s);
     	  System.out.println("key: "+ctrm.getKey());
     	  System.out.println("iv:  "+ctrm.getIv());
     	  c= ctrm.encrypt(s);
